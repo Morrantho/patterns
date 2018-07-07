@@ -7,3 +7,5 @@ An athlete has differents methods of execising. They can bench, do leg presses, 
 There are many kinds of ways to sort an array. Quicksort, MergeSort, Bubble Sort, Tim Sort, Insertion Sort, Selection Sort, etc. All approaches sort data, but sort it differently.
 
 A painter has a paint brush and a paint roller. He can either paint with his brush or with his roller. Each is a very different approach, but he's still painting. Or maybe he even wants to make stucco, so he grabs some drywall mud and a sponge. Stucco is a valid method of painting, so this works.
+
+Writing something down can be done with a pencil, pen, marker, etc. Each approach is different in the type of material used to write, but it still writes.
