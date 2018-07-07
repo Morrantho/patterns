@@ -1,0 +1,9 @@
+A music player has different ways of playing a song. Slow (half speed), normal and Fast (twice speed). All approaches still play the song, but play it differently.
+
+A cook has different methods of preparing food. One can fry, bake, grill, boil, broil, toast, etc. All approaches cook the food, but cook it differently.
+
+An athlete has differents methods of execising. They can bench, do leg presses, run, do jumping jacks, etc. They still need to work out, and all of the above are valid ways of working out, but are different.
+
+There are many kinds of ways to sort an array. Quicksort, MergeSort, Bubble Sort, Tim Sort, Insertion Sort, Selection Sort, etc. All approaches sort data, but sort it differently.
+
+A painter has a paint brush and a paint roller. He can either paint with his brush or with his roller. Each is a very different approach, but he's still painting. Or maybe he even wants to make stucco, so he grabs some drywall mud and a sponge. Stucco is a valid method of painting, so this works.
