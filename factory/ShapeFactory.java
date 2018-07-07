@@ -2,17 +2,27 @@ public class ShapeFactory{
 	private ShapeFactory(){}
 
 	public static Shape create(String type){
+		Shape shape;
+
 		switch(type){
-			case "Square":
-				return new Square();
-			case "Circle":
-				return new Circle();
-			case "Triangle":
-				return new Triangle();
-			case "Rectangle":
-				return new Rectangle();
+			case "square":
+				shape = new Square();
+				break;
+			case "circle":
+				shape = new Circle();
+				break;
+			case "triangle":
+				shape = new Triangle();
+				break;
+			case "rectangle":
+				shape = new Rectangle();
+				break;
 			default:
-				return null;
+				shape = new Square();
+				break;
 		}
+
+		shape.construct();
+		return shape;
 	}
 }

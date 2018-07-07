@@ -1,15 +1,15 @@
 public class Main{
 	public static void main(String[] args) {
-		Shape a = ShapeFactory.create("Circle");
-		a.display();
+		Shape square = ShapeFactory.create("square");
+		square.display();
 
-		Shape b = ShapeFactory.create("Square");
-		b.display();
+		Shape circle = ShapeFactory.create("circle");
+		circle.display();
 
-		Shape c = ShapeFactory.create("Triangle");
-		c.display();
+		Shape triangle = ShapeFactory.create("triangle");
+		triangle.display();
 
-		Shape d = ShapeFactory.create("Rectangle");
-		d.display();
+		Shape rectangle = ShapeFactory.create("rectangle");
+		rectangle.display();
 	}
 }

@@ -1,7 +1,11 @@
 public class Triangle extends Shape{
 	public Triangle(){
-		width  = 64;
-		height = 64;
+
+	}
+
+	public void construct(){
+		width  = 24;
+		height = 24;
 		sides  = 3;
 	}
 }
