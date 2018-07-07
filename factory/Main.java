@@ -1,13 +1,15 @@
 public class Main{
 	public static void main(String[] args) {
-		Shape square    = ShapeFactory.Square(32,32);
-		Shape rectangle = ShapeFactory.Rectangle(96,96);
-		Shape triangle  = ShapeFactory.Triangle(128,128);
-		Shape circle    = ShapeFactory.Circle(24,24);
+		Shape a = ShapeFactory.create("Circle");
+		a.display();
 
-		square.display();
-		rectangle.display();
-		triangle.display();
-		circle.display();
+		Shape b = ShapeFactory.create("Square");
+		b.display();
+
+		Shape c = ShapeFactory.create("Triangle");
+		c.display();
+
+		Shape d = ShapeFactory.create("Rectangle");
+		d.display();
 	}
 }

@@ -1,18 +1,9 @@
-public class Shape{
-	private int width;
-	private int height;
-	private int sides;
-
-	public void setWidth(int width){this.width=width;}
-	public void setHeight(int height){this.height=height;}
-	public void setSides(int sides){this.sides=sides;}
-	public int getWidth(){return width;}
-	public int getHeight(){return height;}
-	public int getSides(){return sides;}
+public abstract class Shape{
+	public int width;
+	public int height;
+	public int sides;
 
 	public void display(){
-		System.out.println("Width: "+width+"\n"+"Height:"+height+"\n"+"Sides: "+sides+"\n");
+		System.out.println("Width:"+width+" Height: "+height+" Sides: "+sides);
 	}
-
-	public Shape(){}
 }
